@@ -1,5 +1,6 @@
 dp
 ==
 
-Solving random puzzles from r/DailyProgrammer
+Solving random puzzles from r/DailyProgrammer.
+
 Cue some lousy, lousy code.
