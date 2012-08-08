@@ -22,8 +22,3 @@ print "------------------------- "
 # To forgo formatting: print zip(*[col[1] for col in sorted(cs)])
 for row in zip(*[col[1] for col in sorted(cs)]):
   print " ".join(map(str,row))
-
-
-  # for el in zip(*col[1]):
-  #   sys.stdout.write(str(el)+' ')
-  # print "" #newline
