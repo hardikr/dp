@@ -58,8 +58,7 @@ def search(words):
   try:
     with open('tests/83index.txt') as f: pass
   except IOError as e:
-   print 'Please Index with -i first'
-   return
+   sys.exit('Please index with -i first. (use -h for help)')
   wordlist = pickle.load(open('tests/83index.txt','rb'))
   for word in words:
     if word in wordlist:
